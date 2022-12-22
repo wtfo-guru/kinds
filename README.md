@@ -1,7 +1,7 @@
 # kinds
 
 [![Build Status](https://github.com/wtfo-guru/kinds/workflows/test/badge.svg?branch=main&event=push)](https://github.com/wtfo-guru/kinds/actions?query=workflow%3Atest)
-[![Coverage Status](https://coveralls.io/repos/github/wtfo-guru/kinds/badge.svg?branch=main)](https://coveralls.io/github/wtfo-guru/kinds?branch=main)
+[![codecov](https://codecov.io/gh/wtfo-guru/kinds/branch/main/graph/badge.svg)](https://codecov.io/gh/wtfo-guru/kinds)
 [![Python Version](https://img.shields.io/pypi/pyversions/kinds.svg)](https://pypi.org/project/kinds/)
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 
@@ -34,9 +34,9 @@ print(some_function(3, 4))
 
 ## License
 
-[MIT](https://github.com/wtfo-guru/kinds/blob/master/LICENSE)
+[MIT](https://github.com/wtfo-guru/kinds/blob/main/LICENSE)
 
 
 ## Credits
 
-This project was generated with [`wemake-python-package`](https://github.com/wemake-services/wemake-python-package). Current template version is: [3d9ad64bcbf7afc6bee7f2c9ea8c923d579b119c](https://github.com/wemake-services/wemake-python-package/tree/3d9ad64bcbf7afc6bee7f2c9ea8c923d579b119c). See what is [updated](https://github.com/wemake-services/wemake-python-package/compare/3d9ad64bcbf7afc6bee7f2c9ea8c923d579b119c...master) since then.
+This project was generated with [`wemake-python-package`](https://github.com/wemake-services/wemake-python-package). Current template version is: [3d9ad64bcbf7afc6bee7f2c9ea8c923d579b119c](https://github.com/wemake-services/wemake-python-package/tree/3d9ad64bcbf7afc6bee7f2c9ea8c923d579b119c). See what is [updated](https://github.com/wemake-services/wemake-python-package/compare/3d9ad64bcbf7afc6bee7f2c9ea8c923d579b119c...main) since then.
