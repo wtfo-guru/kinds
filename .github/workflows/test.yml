@@ -45,8 +45,25 @@ jobs:
     - name: Run checks
       run: make test
 
+    # - name: Coveralls Parallel
+    #   uses: coverallsapp/github-action@master
+    #   with:
+    #     github-token: ${{ secrets.github_token }}
+    #     flag-name: run-${{ matrix.python-version }}
+    #     parallel: true
+
     # Upload coverage to codecov: https://codecov.io/
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v3
       with:
         file: ./coverage.xml
+
+  # finish:
+  #   needs: build
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - name: Coveralls Finished
+  #     uses: coverallsapp/github-action@master
+  #     with:
+  #       github-token: ${{ secrets.github_token }}
+  #       parallel-finished: true
