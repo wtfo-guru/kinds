@@ -1,7 +1,7 @@
 # kinds
 
-[![Build Status](https://github.com/wtfo-guru/kinds/workflows/test/badge.svg?branch=master&event=push)](https://github.com/wtfo-guru/kinds/actions?query=workflow%3Atest)
-[![codecov](https://codecov.io/gh/wtfo-guru/kinds/branch/master/graph/badge.svg)](https://codecov.io/gh/wtfo-guru/kinds)
+[![Build Status](https://github.com/wtfo-guru/kinds/workflows/test/badge.svg?branch=main&event=push)](https://github.com/wtfo-guru/kinds/actions?query=workflow%3Atest)
+[![Coverage Status](https://coveralls.io/repos/github/wtfo-guru/kinds/badge.svg?branch=main)](https://coveralls.io/github/wtfo-guru/kinds?branch=main)
 [![Python Version](https://img.shields.io/pypi/pyversions/kinds.svg)](https://pypi.org/project/kinds/)
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 

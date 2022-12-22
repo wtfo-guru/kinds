@@ -9,9 +9,12 @@ black:
 	poetry run isort .
 	poetry run black .
 
-.PHONY: lint
-lint: black
+.PHONY: mypy
+mypy: black
 	poetry run mypy kinds tests/**/*.py
+
+.PHONY: lint
+lint: mypy
 	poetry run flake8 .
 	poetry run doc8 -q docs
 
