@@ -42,7 +42,7 @@ work:
 
 .PHONY: chlog docs
 chlog:
-	github_changelog_generator -u wtfo-guru -p wtforglib
+	github_changelog_generator -u wtfo-guru -p kinds
 
 docs:
 	@cd docs && $(MAKE) $@

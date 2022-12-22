@@ -2,16 +2,18 @@
 
 ## [Unreleased](https://github.com/wtfo-guru/kinds/tree/HEAD)
 
-[Unreleased Full Changelog](https://github.com/wtfo-guru/kinds/compare/v1.0.0...HEAD)
+[Full Changelog](https://github.com/wtfo-guru/kinds/compare/v1.0.0...HEAD)
 
 **Merged pull requests:**
 
+- v0.2.0-dev2 [\#5](https://github.com/wtfo-guru/kinds/pull/5) ([qs5779](https://github.com/qs5779))
+- v0.2.0-dev1 [\#4](https://github.com/wtfo-guru/kinds/pull/4) ([qs5779](https://github.com/qs5779))
 - v0.2.0-dev1 [\#3](https://github.com/wtfo-guru/kinds/pull/3) ([qs5779](https://github.com/qs5779))
 - V0.2.0-dev0 [\#2](https://github.com/wtfo-guru/kinds/pull/2) ([qs5779](https://github.com/qs5779))
 
 ## [v1.0.0](https://github.com/wtfo-guru/kinds/tree/v1.0.0) (2022-12-21)
 
-[v1.0.0 Full Changelog](https://github.com/wtfo-guru/kinds/compare/03855920deed4ce74a896419d48a80604a08a4f2...v1.0.0)
+[Full Changelog](https://github.com/wtfo-guru/kinds/compare/03855920deed4ce74a896419d48a80604a08a4f2...v1.0.0)
 
 **Merged pull requests:**
 
