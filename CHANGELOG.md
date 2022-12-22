@@ -1,8 +1,3 @@
-# Version history
 
-We follow [Semantic Versions](https://semver.org/).
-
-
-## Version 0.1.0
-
-- Initial release
+<a name="v1.0.0"></a>
+## v1.0.0 (2022-12-21)
