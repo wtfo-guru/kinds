@@ -1,4 +1,4 @@
-name: test
+name: Kinds CI
 
 on:
   push:
