@@ -28,8 +28,8 @@ def _get_project_meta():
 
 pkg_meta = _get_project_meta()
 project = str(pkg_meta["name"])
-copyright = "2022, wtfo-guru"  # noqa: WPS125
-author = "wtfo-guru"
+copyright = "2022, Quien Sabe"  # noqa: WPS125
+author = "Quien Sabe"
 
 # The short X.Y version
 version = str(pkg_meta["version"])
@@ -100,7 +100,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = "sphinx"
 
-add_module_names = False
+add_module_names = True
 
 autodoc_default_options = {
     "show-inheritance": True,
