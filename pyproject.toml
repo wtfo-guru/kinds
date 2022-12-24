@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "kinds"
 description = "Project to help with typing in multi-version python projects."
-version = "0.2.0-dev5"
+version = "0.2.0"
 license = "MIT"
 
 authors = [
