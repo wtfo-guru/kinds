@@ -38,7 +38,7 @@ doc8 = "^1.0"
 nitpick = "^0.32"
 
 
-pytest = "^7.1"
+pytest = "^7.2"
 pytest-cov = "^4.0"
 pytest-randomly = "^3.12"
 black = "^22.12.0"
