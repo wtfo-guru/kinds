@@ -30,18 +30,18 @@ package:
 
 test: lint package unit
 
-.PHONY: work36 work37 work38 work
-work36:
-	docker run --pull --rm -it --volume $(PROJECT):/project/ qs5779/python-testing:ubuntu20.04-3.6.15 /bin/bash
+.PHONY: work39 work37 work38 work
+work39:
+	docker run --rm -it --volume $(PROJECT):/project/ qs5779/python-testing:ubuntu20.04-3.9.14 /bin/bash
 
 work37:
-	docker run --pull --rm -it --volume $(PROJECT):/project/ qs5779/python-testing:ubuntu20.04-3.7.16 /bin/bash
+	docker run --rm -it --volume $(PROJECT):/project/ qs5779/python-testing:ubuntu20.04-3.7.16 /bin/bash
 
 work38:
-	docker run --pull --rm -it --volume $(PROJECT):/project/ qs5779/python-testing:ubuntu20.04-3.8.16 /bin/bash
+	docker run --rm -it --volume $(PROJECT):/project/ qs5779/python-testing:ubuntu20.04-3.8.16 /bin/bash
 
 work:
-	docker run --pull --rm -it --volume $(PROJECT):/project/ qs5779/python-testing:$(DISTRO)-$(PYVERS) /bin/bash
+	docker run --rm -it --volume $(PROJECT):/project/ qs5779/python-testing:$(DISTRO)-$(PYVERS) /bin/bash
 
 .PHONY: chlog docs
 chlog:
